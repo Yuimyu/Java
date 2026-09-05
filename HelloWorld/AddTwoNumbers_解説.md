@@ -19,7 +19,7 @@ public class AddTwoNumbers {
 }
 ```
 
-`class`・`static`・`new`・`System.out.println`の意味は[HelloWorld_解説.md](HelloWorld_解説.md)で説明済みなので、ここでは**新しく出てきた部分**を中心に解説します。
+`class`・`static`・`new`・`System.out.println`の意味は[HelloWorld_解説.md](../HelloWorld/HelloWorld_解説.md)で説明済みなので、ここでは**新しく出てきた部分**を中心に解説します。
 
 ---
 
@@ -46,7 +46,7 @@ Javaの標準ライブラリは「パッケージ」という単位でグルー�
 Scanner sc = new Scanner(System.in);
 ```
 
-これは[HelloWorld_解説.md](HelloWorld_解説.md)の「事前知識4: `new`」で説明した通り、`Scanner`という設計図(クラス)から、キーボード入力を扱うための実体(インスタンス)を1つ作っている行です。
+これは[HelloWorld_解説.md](../HelloWorld/HelloWorld_解説.md)の「事前知識4: `new`」で説明した通り、`Scanner`という設計図(クラス)から、キーボード入力を扱うための実体(インスタンス)を1つ作っている行です。
 
 - `System.in`：Cでいう標準入力`stdin`にあたるもの。「キーボードからの入力そのもの」を表すオブジェクト
 - `new Scanner(System.in)`：「`System.in`(キーボード入力)を読み取る係」としてScannerの実体を作る
@@ -62,7 +62,7 @@ C言語では入力を受け取るのに`scanf("%d", &num1);`と書きました�
 System.out.print("1つ目の数字を入力して下さい");
 ```
 
-[HelloWorld_解説.md](HelloWorld_解説.md)で出てきた`println`との違いは、**自動で改行しない**点だけです。
+[HelloWorld_解説.md](../HelloWorld/HelloWorld_解説.md)で出てきた`println`との違いは、**自動で改行しない**点だけです。
 
 - `println`：出力後に改行する（"print line"）
 - `print`：出力するだけで改行しない（"print"）
